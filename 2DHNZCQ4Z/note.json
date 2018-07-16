@@ -1,0 +1,104 @@
+{
+  "paragraphs": [
+    {
+      "text": "a \u003d input(\"Enter a no.\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-16 07:36:10.673",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Enter a no."
+          },
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_python-6427774488395104050.py\", line 320, in \u003cmodule\u003e\n    raise Exception(traceback.format_exc())\nException: Traceback (most recent call last):\n  File \"/tmp/zeppelin_python-6427774488395104050.py\", line 313, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 1, in \u003cmodule\u003e\n  File \"/tmp/zeppelin_python-6427774488395104050.py\", line 227, in handler_stop_signals\n    sys.exit(\"Got signal : \" + str(sig))\nSystemExit: Got signal : 2\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1531726537339_545050299",
+      "id": "20180716-073537_517587718",
+      "dateCreated": "2018-07-16 07:35:37.339",
+      "dateStarted": "2018-07-16 07:36:10.707",
+      "dateFinished": "2018-07-16 09:07:02.496",
+      "status": "ABORT",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "a \u003d \"Git Notebook\"\nprint(len(a))",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-16 09:08:14.985",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "12\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1531726570676_735003766",
+      "id": "20180716-073610_1639072138",
+      "dateCreated": "2018-07-16 07:36:10.676",
+      "dateStarted": "2018-07-16 09:08:15.090",
+      "dateFinished": "2018-07-16 09:08:15.106",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1531732094985_-2038427067",
+      "id": "20180716-090814_1735975255",
+      "dateCreated": "2018-07-16 09:08:14.986",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "pythonGitNote",
+  "id": "2DHNZCQ4Z",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "python:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
