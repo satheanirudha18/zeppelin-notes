@@ -1,0 +1,68 @@
+{
+  "paragraphs": [
+    {
+      "text": "a \u003d \"Git Notebook 2.0\"\nprint(a)",
+      "user": "anonymous",
+      "dateUpdated": "2018-08-01 09:29:29.567",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Git Notebook 2.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1533115750610_-1483221403",
+      "id": "20180801-092910_1731341894",
+      "dateCreated": "2018-08-01 09:29:10.610",
+      "dateStarted": "2018-08-01 09:29:29.596",
+      "dateFinished": "2018-08-01 09:29:38.783",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1533115769567_-292684880",
+      "id": "20180801-092929_2072075073",
+      "dateCreated": "2018-08-01 09:29:29.567",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "GitPythonNotebook",
+  "id": "2DNDGUAM4",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "python:shared_process": [],
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
